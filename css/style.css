@@ -1,0 +1,566 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+/*GENERAL BEGIN*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {list-style: none;}
+
+a {text-decoration: none;}
+
+@font-face {
+	font-family: OpenSans;
+	src:url(../fonts/OpenSans.ttf);
+}
+
+body {
+	font: 13px OpenSans, Tahoma, sans-serif;
+	max-width: 1500px;
+	margin:0 auto;
+}
+
+/*GENERAL END*/
+
+/*HEADER*/
+
+.home, .our-services, .works, .our-team, .contacts {
+    min-height: 735px;
+    position: relative;
+    /*margin: 32px 0px 0;*/
+}
+
+.our-team {
+      margin: 32px 0px 0;
+}
+
+.home {
+    background: url(../img/cover.jpg) no-repeat 50% 0px;
+    background-color: #222;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.home-overly {
+	background-color: rgba(44, 62, 80, 0.3);
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width:100%;
+    height: 115%;
+}
+
+.welcome {
+	position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 0;
+    text-align: center;
+}
+
+.welcome h1 {
+	text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 5px 0 5px;
+    font: 700 40px/1.2 Raleway, sans-serif;
+    font-weight: 800;
+    color: #fff;
+}
+
+.start {
+    font-size: 18px;
+    font-style: normal;
+    text-transform: none;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.scroll-down {
+    position: absolute;
+    left: 48%;
+    bottom: 25px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+}
+
+.scroll-down span {
+    color: #fff;
+}
+
+.our-services {
+	position: relative;
+	background: #f5f5f5;
+}
+.logo {
+    padding-right: 10px;
+    padding-top: 0;
+}
+/*menu*/
+.container-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navigation {
+    width: 100%;
+    background: #fff;
+    padding: 0 50px;
+    box-sizing: border-box;
+    height: 51px;
+    border-bottom: 1px solid silver;
+}
+
+.navbar-custom {
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+}
+.navbar-header {
+	display: block;
+	float: left;
+}
+
+
+.navbar-header a {
+	line-height: 51px;
+	font-weight: 700;
+    font-size: 22px;
+    font-family: Lobster, cursive;
+    letter-spacing: 3px;
+    color: #222;
+}
+
+/*nav {
+	max-width: 900px;
+	float:right;
+}*/
+
+/*.menu li {
+	float: left;
+	margin-left: 5px;
+}
+*/
+.menu a {
+    line-height: 51px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #222;
+    padding: 15px;
+}
+/*menu END*/
+
+
+.flex-container-1 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.flex-container-1 .flex-item {
+    width: 312px;
+    height: 267px;
+    background-color:#fff;
+    margin-bottom: 20px;
+}
+
+.flex-container-1 .flex-item h3 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+    color: #000;
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+.icon-question, .icon-magic-wand, .icon-puzzle, .icon-badge {
+    font-size: 20px;
+    color: #222;
+}
+
+.flex-description {
+     font-size: 15px;
+}
+
+.block-title {
+    font-weight: 800;
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+.block-title-2 {
+    display: none;
+}
+
+.block-line {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+.pfblock-subtitle {
+    font-style: normal;
+    font-size: 18px;
+    margin-bottom: 117px;
+}
+
+.description {
+    padding: 50px 30px 0;
+    text-align: center;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+    position: relative;
+}
+
+.flex-item {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.our-team {
+    background-color:#3498db
+}
+.carousel-indicators li { 
+        border-radius: 50%; 
+        height: 20px;
+        width: 20px;
+}
+.carousel-indicators .active {
+    height: 20px;
+    width: 20px;
+}
+
+.team-block li {
+    float: left;
+    text-decoration: none;
+    margin-top: 150px;
+    margin-right: 200px;
+}
+
+.team-info {
+    margin-top: 70px;
+    position: relative;
+}
+.team-info:after {
+    margin-top: 65px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.team-info>div {
+    float: left;
+    width: 351px;
+    margin: 11px 11px 30px 69px;
+}
+
+.team-info .img {
+    float: left;
+}
+
+.maps-wrap{
+    float: left;
+    margin-right: 30px;
+    width: 100%;
+}
+
+
+.form-wrap{
+    position: absolute;
+    bottom: 193px;
+    right: 6%;
+}
+
+.form-style-9 {
+    width: 450px;
+    background: #FAFAFA;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #305A72;
+}
+.form-style-9 ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.form-style-9 ul li{
+    display: block;
+    margin-bottom: 10px;
+    min-height: 35px;
+}
+.form-style-9 ul li  .field-style{
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+
+}.form-style-9 ul li  .field-style:focus{
+    box-shadow: 0 0 5px #B0CFE0;
+    border:1px solid #B0CFE0;
+}
+.form-style-9 ul li .field-split{
+    width: 49%;
+}
+.form-style-9 ul li .field-full{
+    width: 100%;
+}
+.form-style-9 ul li input.align-left{
+    float:left;
+}
+.form-style-9 ul li input.align-right{
+    float:right;
+}
+.form-style-9 ul li textarea{
+    width: 100%;
+    height: 100px;
+}
+.form-style-9 ul li input[type="button"], 
+.form-style-9 ul li input[type="submit"] {
+    -moz-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #3985B1;
+    box-shadow: inset 0px 1px 0px 0px #3985B1;
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+.form-style-9 ul li input[type="button"]:hover, 
+.form-style-9 ul li input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #2D77A2 5%, #337DA8 100%);
+    background-color: #28739E;
+}
+
+
+.img img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #939393;
+    border-radius: 50%;
+    margin-right: 40px;
+}   
+
+.team-info h4 {
+    display: inline-block;
+    margin: 30px 0 0;
+} 
+
+.team-info span {
+    margin: 30px 0 0 0;
+}
+
+.social-contacts li {
+   float: left;
+   margin-top: 20px;
+}
+
+.social-contacts li a {
+    width: 27px;
+	height: 27px;
+	display: block;
+    background: url(../img/social-icons.png) no-repeat 0 0;
+}
+
+.social-contacts li a.vkontakte {
+     background-position: -106px -29px;
+}
+
+.social-contacts li a.facebook {
+     background-position: -26px 0;
+}
+.social-contacts li a.googleplus {
+     background-position: -52px -30px;
+}
+.social-contacts li a.twitter {
+     background-position: 0 0;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 40px 0;
+    color: #FFF;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links li a {
+    width: 27px;
+	height: 27px;
+	display: block;
+    background: url(../img/social-icons.png) no-repeat 0 0;
+}
+
+.social-links li a.vk {
+    background-position: -106px -29px;
+}
+
+.social-links li a.fb {
+     background-position: -26px 0;
+}
+.social-links li a.google {
+     background-position: -52px -30px;
+}
+.social-links li a.tw {
+     background-position: 0 0;
+}
+.social-links li a.preent {
+     background-position: -80px 0;
+}
+
+.overlay {
+    background:transparent;
+    position:relative;
+    width:640px; /* your iframe width */
+    height:480px; /* your iframe height */
+    top:480px; /* your iframe height */
+    margin-top:-480px; /* your iframe height */
+}
+
+
+
+.scroll-up {
+	position: fixed;
+	display: none;
+	z-index: 999;
+	bottom: 2em;
+	right: 2em;
+}
+
+.scroll-up a {
+	background-color: rgba(135, 135, 135, 0.5);
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+	background-color: rgba(235, 235, 235, .8);
+	color: #e7746f;
+}
+
+/* ---------------------------------------------- /*
+ *Scroll Down
+/* ---------------------------------------------- */
+
+.scroll-down {
+	position: absolute;
+	left: 50%;
+	margin-bottom: 80px;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin-left: -15px;
+	display: block;
+	z-index: 10;
+    text-align: center;
+}
+
+.scroll-down span{
+    position: relative;
+    color: #fff;
+    -webkit-animation-name: drop;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	animation-name: drop;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+}
+
+@-webkit-keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+@keyframes drop	{
+	0%   { top:0px;  opacity: 0;}
+	30%  { top:10px; opacity: 1;}
+	100% { top:25px; opacity: 0;}
+}
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+	background: #FFF;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+
+#status {
+	background-image: url(../img/preloader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200px;
+	left: 50%;
+	margin: -100px 0 0 -100px;
+	position: absolute;
+	top: 50%;
+	width: 200px;
+}
+/*formDone*/
+#messageDone{
+    margin-left: 50px;
+    margin-bottom: 12px;
+}
